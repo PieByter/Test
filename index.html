@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dark-mode.css" />
+
+    <!--Icon pada Tab Website-->
+    <link rel="icon" type="image/x-icon" href="Assets/icon-tab.png" />
+
+    <!--Judul Website-->
+    <title>Main | The Pokémon Company</title>
+  </head>
+
+  <body class="bg-white h-100">
+    <!--Jumbotron-->
+    <div class="jumbotron jumbotron-fluid m-0">
+      <div class="container text-center">
+        <img
+          class="rounded-circle img-thumbnail"
+          src="Assets/jumbotron-profile.jpg"
+          alt="Profile Picture"
+          width="25%"
+          height="25%"
+        />
+        <h1 class="display-4"><b>The Pokémon Company</b></h1>
+        <p class="lead">
+          <b>
+            What Are Pokémon? Pokémon are creatures of all shapes and sizes who
+            live in the wild or alongside their human partners (called
+            “Trainers”). During their adventures, Pokémon grow and become more
+            experienced and even, on occasion, evolve into stronger Pokémon.
+          </b>
+        </p>
+      </div>
+    </div>
+
+    <!--Navbar-->
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand disabled"
+          ><img src="Assets/logo-pokemon.png" alt="pokemon logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="fa-solid fa-bars"></i
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link page-scroll" href="#"
+                >Home<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.pokemoncenter.com/?utm_source=p&utm_medium=referral&utm_term=GUS"
+              >
+                Pokémon Shop</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://corporate.pokemon.com/en-us/"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Else
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item page-scroll" href="#about">About</a>
+                <a class="dropdown-item page-scroll" href="#games">Games</a>
+                <a class="dropdown-item page-scroll" href="#carousel">News</a>
+                <a class="dropdown-item page-scroll" href="#music">Music</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item page-scroll" href="#footer"
+                  >Another Info</a
+                >
+              </div>
+            </li>
+          </ul>
+          <!--Dark Mode-->
+          <div class="custom-control custom-switch mx-lg-4">
+            <input
+              type="checkbox"
+              class="custom-control-input"
+              id="darkSwitch"
+            />
+            <label class="custom-control-label" for="darkSwitch">
+              <i class="fa-sharp fa-solid fa-circle-half-stroke"></i>
+              Dark Mode
+            </label>
+          </div>
+
+          <script src="dark-mode-switch.min.js"></script>
+
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2 bg-light text-primary"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <a href="login.html">
+            <button class="btn btn-outline-primary m-2 my-sm-0" type="submit">
+              Login
+            </button>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About -->
+    <section id="about" class="about p-5">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2>About</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="row text-justify justify-content-center pb-4">
+          <div class="col-md-5">
+            The Pokémon Company International manages the property outside of
+            Asia and is responsible for brand management, licensing, marketing,
+            the Pokémon Trading Card Game, the animated TV series, home
+            entertainment, and the official Pokémon website.
+          </div>
+          <div class="col-md-5">
+            The world of Pokémon connects people across the globe, beloved by
+            kids, adults, and every Trainer in between! These incredible
+            creatures have crossed borders and language barriers to reach the
+            hearts of millions for over 25 years, bringing people together
+            through the joy of play and discovery.
+          </div>
+        </div>
+      </div>
+      <!-- About Company : Accordion -->
+      <div class="accordion" id="accordionExample">
+        <div class="card bg-white border-dark text-center">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link btn-block collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Passion for Pokémon
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseOne"
+            class="collapse show"
+            aria-labelledby="headingOne"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body border-top border-dark">
+              We have a passion for Pokémon that drives us to understand the
+              impact our brand has on teammates, fans, players, and communities.
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-white border-dark text-center">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link btn-block collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Dedicated to Quality
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseTwo"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body border-top border-dark">
+              We take ownership of maintaining and promoting high standards,
+              continuously seeking ways to learn and improve while encouraging
+              and trusting others to do the same.
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-white border-dark text-center">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link btn-block collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Challenging the Expected
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseThree"
+            class="collapse"
+            aria-labelledby="headingThree"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body border-top border-dark">
+              We display curiosity and creativity and use these qualities to
+              develop innovative ideas, solve complex problems, and identify
+              unique opportunities.
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-white border-dark text-center">
+          <div class="card-header" id="headingFour">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link btn-block collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Building Relationships
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseFour"
+            class="collapse"
+            aria-labelledby="headingFour"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body border-top border-dark">
+              We think “team first,” developing and strengthening collaborative
+              partnerships with all teammates—internal and external—to get
+              things done quicker, smarter, and better.
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-white border-dark text-center">
+          <div class="card-header" id="headingFive">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link btn-block collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                Integrity and Respect
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseFive"
+            class="collapse"
+            aria-labelledby="headingFive"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body border-top border-dark">
+              We treat people with respect and empathy to build an open and
+              trusting environment.
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-white border-dark text-center">
+          <div class="card-header" id="headingSix">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link btn-block collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseSix"
+                aria-expanded="false"
+                aria-controls="collapseSix"
+              >
+                Delighting Customers
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseSix"
+            class="collapse"
+            aria-labelledby="headingSix"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body border-top border-dark">
+              We listen to our customers and stakeholders and do everything we
+              can to deliver a unique Pokémon experience.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Games Section : Card With Text Hover-->
+    <section id="games" class="games bg-light pb-4">
+      <div class="container">
+        <div class="row mb-4 pt-4">
+          <div class="col text-center" id="card">
+            <h2>Games</h2>
+            <hr />
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-md">
+            <div class="card bg-light text-light">
+              <div class="card-body games-card bc1">
+                <div class="hovtxt">
+                  <h5 class="card-title">Pokémon Super Mystery Dungeon</h5>
+                  <p class="card-text">
+                    Release Date: November 20, 2015 <br />
+                    Genre: RPG <br />
+                    Platform: Nintendo 3DS
+                  </p>
+                </div>
+              </div>
+              <div class="card-footer text-center bg-light">
+                <a
+                  href="https://www.pokemon.com/us/pokemon-video-games/pokemon-super-mystery-dungeon/"
+                  class="btn btn-primary"
+                  >See Info</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-light text-light">
+              <div class="card-body games-card bc2">
+                <div class="hovtxt">
+                  <h5 class="card-title">
+                    Pokémon Ultra Sun and Pokémon Ultra Moon
+                  </h5>
+                  <p class="card-text">
+                    Release Date: November 17, 2017 <br />
+                    Genre: Adventure RPG <br />
+                    Platform: Nintendo 3DS
+                  </p>
+                </div>
+              </div>
+              <div class="card-footer text-center bg-light">
+                <a
+                  href="https://www.pokemon.com/us/pokemon-video-games/pokemon-ultra-sun-and-pokemon-ultra-moon/"
+                  class="btn btn-primary"
+                  >See Info</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-light text-light">
+              <div class="card-body games-card bc3">
+                <div class="hovtxt">
+                  <h5 class="card-title">
+                    Pokémon: Let’s Go, Pikachu! and Pokémon: Let’s Go, Eevee!
+                  </h5>
+                  <p class="card-text">
+                    Release Date: November 16, 2018 <br />
+                    Genre: RPG <br />
+                    Platform: Nintendo Switch
+                  </p>
+                </div>
+              </div>
+              <div class="card-footer text-center bg-light">
+                <a
+                  href="https://www.pokemon.com/us/pokemon-video-games/pokemon-lets-go-pikachu-and-pokemon-lets-go-eevee/"
+                  class="btn btn-primary"
+                  >See Info</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-light text-light">
+              <div class="card-body games-card bc4">
+                <div class="hovtxt">
+                  <h5 class="card-title">Pokémon Sword and Pokémon Shield</h5>
+                  <p class="card-text">
+                    Release Date: November 15, 2019 <br />
+                    Genre: RPG <br />
+                    Platform: Nintendo Switch
+                  </p>
+                </div>
+              </div>
+              <div class="card-footer text-center bg-light">
+                <a href="#" class="btn btn-primary">See Info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-md">
+            <div class="card bg-light text-light">
+              <div class="card-body games-card bc5">
+                <div class="hovtxt">
+                  <h5 class="card-title">
+                    Pokémon Brilliant Diamond and Pokémon Shining Pearl
+                  </h5>
+                  <p class="card-text">
+                    Release Date: November 19, 2021 <br />
+                    Genre: RPG <br />
+                    Platform: Nintendo Switch
+                  </p>
+                </div>
+              </div>
+              <div class="card-footer text-center bg-light">
+                <a
+                  href="https://www.pokemon.com/us/pokemon-video-games/pokemon-brilliant-diamond-and-pokemon-shining-pearl/"
+                  class="btn btn-primary"
+                  >See Info</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-light text-light">
+              <div class="card-body games-card bc6">
+                <div class="hovtxt">
+                  <h5 class="card-title">Pokémon Scarlet & Violet</h5>
+                  <p class="card-text">
+                    Release Date: November 18, 2022 <br />
+                    Genre: RPG <br />Platform: Nintendo Switch
+                  </p>
+                </div>
+              </div>
+              <div class="card-footer text-center bg-light">
+                <a
+                  href="https://www.pokemon.com/us/pokemon-video-games/pokemon-scarlet-and-pokemon-violet/"
+                  class="btn btn-primary"
+                  >See Info</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-light text-light">
+              <div class="card-body games-card bc7">
+                <div class="hovtxt">
+                  <h5 class="card-title">Pokémon Legends: Arceus</h5>
+                  <p class="card-text">
+                    Release Date: January 28, 2022 <br />Genre: Action-RPG
+                    <br />Platform: Nintendo Switch
+                  </p>
+                </div>
+              </div>
+              <div class="card-footer text-center bg-light">
+                <a
+                  href="https://www.pokemon.com/us/pokemon-video-games/pokemon-legends-arceus/"
+                  class="btn btn-primary"
+                  >See Info</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-md">
+            <div class="card bg-light text-light">
+              <div class="card-body games-card bc8">
+                <div class="hovtxt">
+                  <h5 class="card-title">Pokémon UNITE</h5>
+                  <p class="card-text">
+                    Release Date: July 21, 2021 (Nintendo Switch) / Sept. 22,
+                    2021 <br />
+                    Genre: Strategic team battle <br />
+                    Platform: Nintendo Switch, iOS, and Android devices
+                  </p>
+                </div>
+              </div>
+              <div class="card-footer text-center bg-light">
+                <a
+                  href="https://www.pokemon.com/us/pokemon-video-games/pokemon-unite/"
+                  class="btn btn-primary"
+                  >See Info</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-light text-light">
+              <div class="card-body games-card bc9">
+                <div class="hovtxt">
+                  <h5 class="card-title">Pokémon GO</h5>
+                  <p class="card-text">
+                    Travel between the real world and the virtual world of
+                    Pokémon with Pokémon GO for iPhone and Android devices. With
+                    Pokémon GO, you'll discover Pokémon in a whole new
+                    world—your own!
+                  </p>
+                </div>
+              </div>
+              <div class="card-footer text-center bg-light">
+                <a
+                  href="https://www.pokemon.com/us/app/pokemon-go/"
+                  class="btn btn-primary"
+                  >See Info</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-light text-light">
+              <div class="card-body games-card bc10">
+                <div class="hovtxt">
+                  <h5 class="card-title">
+                    Pokémon Mystery Dungeon: Rescue Team DX
+                  </h5>
+                  <p class="card-text">
+                    Release Date: March 6, 2020 <br />
+                    Genre: RPG <br />
+                    Platform: Nintendo Switch
+                  </p>
+                </div>
+              </div>
+              <div class="card-footer text-center bg-light">
+                <a
+                  href="https://www.pokemon.com/us/pokemon-video-games/pokemon-mystery-dungeon-rescue-team-dx/"
+                  class="btn btn-primary"
+                  >See Info</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-light text-light">
+              <div class="card-body games-card bc11">
+                <div class="hovtxt">
+                  <h5 class="card-title">New Pokémon Snap</h5>
+                  <p class="card-text">
+                    Release Date: April 30, 2021 <br />
+                    Genre: Photography Action <br />
+                    Platform: Nintendo Switch
+                  </p>
+                </div>
+              </div>
+              <div class="card-footer text-center bg-light">
+                <a href="#" class="btn btn-primary">See Info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News : Carousel -->
+    <section class="carousel" id="carousel">
+      <div class="container mb-5 pt-4">
+        <div class="title mt-0 text-center">
+          <h1>News</h1>
+          <hr />
+        </div>
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+          data-interval="3000"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleCaptions"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a
+                href="https://www.pokemon.com/us/pokemon-news/part-1-of-pokemon-ultimate-journeys-the-series-now-on-netflix/"
+              >
+                <img src="Assets/slide1.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>
+                    Part 1 of Pokémon Ultimate Journeys: The Series Now on
+                    Netflix
+                  </h5>
+                  <p>
+                    Part 1 of Pokémon Ultimate Journeys: The Series Now on
+                    Netflix Ash, Goh, and Chloe’s adventures continue in Pokémon
+                    Ultimate Journeys: The Series.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://scarletviolet.pokemon.com/en-us/news/legendary_pokemon/"
+              >
+                <img src="Assets/slide2.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Pokémon Scarlet & Violet</h5>
+                  <p>
+                    New Forms Discovered for the Legendary Pokémon Koraidon and
+                    Miraidon.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.pokemon.com/us/pokemon-news/ash-s-sinnoh-adventure-continues-on-pokemon-tv/"
+              >
+                <img src="Assets/slide3.png" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Ash’s Sinnoh Adventure Continues on Pokémon TV</h5>
+                  <p>
+                    Ash, Dawn, and Brock face new challenges when Pokémon: DP
+                    Battle Dimension arrives on Pokémon TV this Friday.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.pokemon.com/us/pokemon-news/dia-de-muertos-returns-to-pokemon-go"
+              >
+                <img src="Assets/slide4.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Día de Muertos Returns to Pokémon GO</h5>
+                  <p>
+                    Take a moment to stop and smell the cempasúchil with the
+                    spirited festivities of Día de Muertos in Pokémon GO.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.pokemon.com/us/pokemon-video-games/pokemon-legends-arceus/"
+              >
+                <img src="Assets/slide5.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Pokémon Legends: Arceus</h5>
+                  <p>
+                    Pokémon Legends: Arceus brings you to the Sinnoh region as
+                    it existed in the past, when it was still known by its
+                    original name.
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-target="#carouselExampleCaptions"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-target="#carouselExampleCaptions"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Music : Card -->
+    <section class="music bg-light" id="music">
+      <div class="container pb-5 pt-4 px-4">
+        <div class="title mt-0 text-center">
+          <h1>Music</h1>
+          <hr />
+        </div>
+        <div class="card-deck">
+          <div class="card mscard">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/track/3OIHgTyQdiAGMmpjQaNxp3?utm_source=generator"
+              width="100%"
+              height="352"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="card mscard">
+            <iframe
+              style="border-radius: 12px"
+              width="100%"
+              height="352"
+              src="https://www.youtube.com/embed/LTl4VBY8iEI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="card mscard">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/track/5a6YChdEs7LDu5RuCsxHXH?utm_source=generator"
+              width="100%"
+              height="352"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scroll To Top Button-->
+    <section class="scroll-to-top" id="scroll-to-top">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa-solid fa-angles-up"></i>
+      </button>
+      <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer" id="footer">
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            <a
+              href="https://www.facebook.com/Pokemon/"
+              class="me-4 link-secondary m-1"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/user/Pokemon"
+              class="me-4 link-secondary m-1"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a
+              href="https://twitter.com/pokemon"
+              class="me-4 link-secondary m-1"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/pokemon/"
+              class="me-4 link-secondary m-1"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://id.pinterest.com/pokemon/"
+              class="me-4 link-secondary m-1"
+            >
+              <i class="fab fa-pinterest"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3 text-secondary"></i> The Pokémon
+                  Company <i class="fa-solid fa-bolt"></i>
+                </h6>
+                <p>
+                  The world of Pokémon connects people across the globe, beloved
+                  by kids, adults, and every Trainer in between! These
+                  incredible creatures have crossed borders and language
+                  barriers to reach the hearts of millions for over 25 years,
+                  bringing people together through the joy of play and
+                  discovery.
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+                <p>
+                  <a href="https://www.pokemon.com/us/" class="text-reset"
+                    >Home
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.pokemon.com/us/pokedex/"
+                    class="text-reset"
+                    >Pokédex
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.pokemon.com/us/pokemon-video-games/"
+                    class="text-reset"
+                    >Video Games & Apps
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.pokemon.com/us/pokemon-tcg/"
+                    class="text-reset"
+                    >Trading Card Game
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.pokemon.com/us/pokemon-episodes/"
+                    class="text-reset"
+                    >Pokémon TV
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.pokemon.com/us/play-pokemon/"
+                    class="text-reset"
+                    >Play! Pokémon Events
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.pokemon.com/us/pokemon-news/"
+                    class="text-reset"
+                    >Pokémon News
+                  </a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+                <p>
+                  <a
+                    href="https://www.pokemon.com/us/pokemon-news/"
+                    class="text-reset"
+                    >What's New
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.pokemon.com/us/parents-guide/"
+                    class="text-reset"
+                    >Pokémon Parents Guide
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.pokemon.com/us/customer-service/"
+                    class="text-reset"
+                    >Customer Service
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://corporate.pokemon.com/en-us/"
+                    class="text-reset"
+                    >About Our Company
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://boards.greenhouse.io/pokemoncareers"
+                    class="text-reset"
+                    >Pokémon Careers
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.pokemon.com/us/country-region/"
+                    class="text-reset"
+                    >Select a Country/Region
+                  </a>
+                </p>
+                <p>
+                  <a href="https://press.pokemon.com/en" class="text-reset"
+                    >Pokémon Press Site
+                  </a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p>
+                  <i class="fas fa-home me-3 text-secondary"></i> New York, NY
+                  10012, US
+                </p>
+                <p>
+                  <i class="fas fa-envelope me-3 text-secondary"></i>
+                  info@example.com
+                </p>
+                <p>
+                  <i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567
+                  88
+                </p>
+                <p>
+                  <i class="fas fa-print me-3 text-secondary"></i> + 01 234 567
+                  89
+                </p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-4"
+          style="background-color: rgba(0, 0, 0, 0.025)"
+        >
+          © 2022 Copyright
+          <a class="text-reset fw-bold" href="https://www.pokemon.com/us/"
+            >Pieter Tanoto
+          </a>
+        </div>
+      </footer>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
